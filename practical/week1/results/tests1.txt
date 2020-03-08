@@ -1,0 +1,28 @@
+Console displayed:
+
+test1:
+Please enter the following data to calculate the volume of a cuboid 
+Enter height : 2
+Enter depth : 3
+Enter length : 4
+The volume of this cuboid is : 24.00
+
+
+test2:
+Please enter the following data to calculate the volume of a cuboid 
+Enter height : 4
+Enter depth : 5
+Enter length : 6
+The volume fo this cuboid is : 120.00
+
+
+test3:
+Please enter the following data to calculate the volume of a cuboid 
+Enter height : -1
+Enter depth : 2
+Enter length : 4
+Error using question1 (line 8)
+error, input must be positive 
+
+
+

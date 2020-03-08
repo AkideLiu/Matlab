@@ -1,0 +1,3 @@
+test:
+The percentage of daily for the city of Adelaie is : 66.7 
+ In this case, desalination can cover 100% of the daily usage 

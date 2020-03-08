@@ -1,0 +1,29 @@
+weight. height. BMI
+70.0.    1.55.  29.14
+65.0.    1.77.  20.75
+
+
+60.0    1.66    46.57
+68.4    1.88    49.89
+73.6    1.59    58.37
+
+
+Tests:
+
+test01:
+
+Enter your weight in kgs : 60
+Enter your height in m : 1.66 
+Your BMI is : 46.57 
+
+test02:
+
+Enter your weight in kgs : 68.4
+Enter your height in m : 1.88
+Your BMI is : 49.89 
+
+test03:
+
+Enter your weight in kgs : 73.6
+Enter your height in m : 1.59
+Your BMI is : 58.37 

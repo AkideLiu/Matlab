@@ -1,0 +1,10 @@
+my hypothesis:
+Maximum     Minimum     average
+
+one number : 
+10          1           (10+1)/2 = 5.5
+
+five number sum:
+10*5 = 50   1*5=5       (50+5)/2 = 27.5
+
+

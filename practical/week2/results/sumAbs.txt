@@ -1,0 +1,31 @@
+num1.   num2.   num3.   num4.   num5.   absSum
+1.0     2.0     -3.0    4.5     -5.6    
+2.7     -6.4    3.1     5.6     -0.8
+9.9     -6.6    -4.1    -6.5    -6.7
+
+test1:
+
+enter a num : 1
+enter a num : 2
+enter a num : -3
+enter a num : 4.5
+enter a num : -5.6
+the abs sum is: 16.1 
+
+
+test2:
+
+enter a num : 2.7
+enter a num : -6.4
+enter a num : 3.1
+enter a num : 5.6
+enter a num : -0.8
+the abs sum is: 18.6 
+
+test3:
+enter a num : 9.9
+enter a num : -6.6
+enter a num : -4.1
+enter a num : -6.5
+enter a num : -6.7
+the abs sum is: 33.8 

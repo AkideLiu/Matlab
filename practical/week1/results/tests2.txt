@@ -1,0 +1,15 @@
+Console displayed:
+
+test1: Adelaide
+Enter the population in Unit of million! : 1.306
+The total daily water usage of that city in Unit of KL: 452076.923077 
+
+
+test2: Melbourne 
+Enter the population in Unit of million! : 4.5
+The total daily water usage of that city in Unit of KL: 1557692.307692 
+
+test3: Sydney 
+
+Enter the population in Unit of million! : 5.1
+The total daily water usage of that city in Unit of KL: 1765384.615385 
