@@ -6,5 +6,4 @@ for i = 1:1000
         error(myThrow);
     end
 end
-
 disp('no problem');
