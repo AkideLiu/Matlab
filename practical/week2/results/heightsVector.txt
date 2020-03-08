@@ -1,0 +1,50 @@
+test case 1:
+enter height : 149
+enter height : 188
+enter height : 173
+enter height : 162
+enter height : 175
+   149
+
+   188
+
+   173
+
+   162
+
+   175
+
+
+test case 2:
+
+enter height : 166
+enter height : 191
+enter height : 188
+enter height : 177
+enter height : 180
+   166
+
+   191
+
+   188
+
+   177
+
+   180
+
+test case 3:
+
+enter height : 155
+enter height : 156
+enter height : 157
+enter height : 158
+enter height : 159
+   155
+
+   156
+
+   157
+
+   158
+
+   159
