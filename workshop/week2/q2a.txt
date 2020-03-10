@@ -1,6 +1,6 @@
-width      height    expected areaRect  observed areaRect
-3           4           12.00           12.00
-6.0         3.5         21.00           21.00
-5           -6           -30.00         -30.00             
--2           -9           18.00         18.00
-9           'six'         error         1035,945,1080
+width      height    expected perimeterRect  observed perimeterRect
+3           4               14.00
+6.0         3.5             19.00
+5           -6              -2.00  
+-2           -9             -22.00
+9           'six'           error         
