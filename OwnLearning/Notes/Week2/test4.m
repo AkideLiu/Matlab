@@ -10,3 +10,5 @@ for i = 1:5
     vec(i) = randi(100);
     disp(vec(i));
 end
+
+disp(rng('shuffle'));
