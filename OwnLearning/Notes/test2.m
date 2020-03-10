@@ -1,9 +1,10 @@
 % this program calculates some properties of a circle
+clc; clear;
 
 
-input('Enter a radius in centimetres : ') = r;
-area = 3.14 * r ^ 2;
-c = 2 * 3.14 * r;
+r = input('Enter a radius in centimetres : ');
+area = pi * r ^ 2;
+circumference = 2 * pi * r;
 
-fprintf('A circle with radius %d cm has area %d cm^2', r, area);
-fprintf('and circumference %d cm \n', c );
+fprintf('A circle with radius %d cm has area %.4f cm^2 ', r, area);
+fprintf('and circumference %.4f cm \n', circumference );
