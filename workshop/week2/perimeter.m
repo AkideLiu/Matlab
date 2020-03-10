@@ -13,7 +13,7 @@ clc; clear;
 width = input('Please input the width of the rectangle : ');
 height = input('Please input the height of the rectangle : ');
 % Calculate the perimeter of the rectangle 
-perimeterRect = (width + height)*2;
+perimeterRect = (width + height) * 2;
 % display the result to the user
 fprintf("The rectange's perimeter is %.2f units  \n", perimeterRect);
 

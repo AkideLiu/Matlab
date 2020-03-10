@@ -1,0 +1,6 @@
+name    expected output     observed output 
+Akide   Your name is : Akide    Your name is : Akide
+Mike    Your name is : Mike     Your name is : Mike
+Nike    Your name is : Nike     Your name is : Nike
+Apple   Your name is : Apple    Your name is : Apple
+Pear    Your name is : Pear     Your name is : Pear
