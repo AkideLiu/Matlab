@@ -8,3 +8,8 @@ five number sum:
 10*5 = 50   1*5=5       (50+5)/2 = 27.5
 
 
+test1 : 35
+test2 : 28
+test3 : 32
+
+
