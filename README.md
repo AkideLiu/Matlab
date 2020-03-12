@@ -1,9 +1,14 @@
 # Matlab
-Matlab
-MATLAB is a multi-paradigm numerical computing environment and proprietary programming language developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages. Wikipedia
-Written in: C/C++, Java
-Stable release: R2019b / September 11, 2019; 5 months ago
-Preview release: R2020a Prerelease
-Developer(s): MathWorks
-Designed by: Cleve Moler
-Operating system: Windows, macOS, and Linux
+MATLAB is a multi-paradigm numerical computing environment and proprietary programming language developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages. [Wikipedia](https://en.wikipedia.org/wiki/MATLAB)
+
+**[Written in](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=matlab+written+in&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQ6BMoADAjegQICxAC):** [C](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=C&stick=H4sIAAAAAAAAAONgVuLQz9U3MCwxS1rEyugMAAqDqO4QAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoATAjegQICxAD)/[C++](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=C%2B%2B&stick=H4sIAAAAAAAAAONgVuLQz9U3yEovTF_EyuysrQ0Ave2bGhIAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoAjAjegQICxAE), [Java](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=Java&stick=H4sIAAAAAAAAAONgVuLSz9U3MC9Oyk5LWsTK4pVYlggAOheYGhUAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoAzAjegQICxAF)
+
+**[Stable release](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=matlab+stable+release&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQ6BMoADAkegQIDBAC):** R2019b / [September 11, 2019](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=September+11,+2019&stick=H4sIAAAAAAAAAONgVhLQL9E3SsnLjs9JykgxLskoX8QqFJxaUJKam5RapGBoqKNgZGBoCQD3urLCKQAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoATAkegQIDBAD); 5 months ago
+
+**[Preview release](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=matlab+preview+release&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQ6BMoADAlegQIDRAC):** R2020a Prerelease
+
+**[Developer(s)](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=matlab+developers&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQ6BMoADAmegQIDhAC):** [MathWorks](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=MathWorks&stick=H4sIAAAAAAAAAONgVuLUz9U3MCq0LEtaxMrpm1iSEZ5flF0MAKqDNvUZAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoATAmegQIDhAD)
+
+**[Designed by](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=matlab+designed+by&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDWOr9AyyCi30k_Oz8lJTS7JzM_TLyjKTy9KzM3NzEuPz0nMSy9NTE8ttkpJLc5Mz0tNUUiqXMQqlJtYkpOYpIAkCABRyJhHUwAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQ6BMoADAnegQIDxAC):** [Cleve Moler](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=Cleve+Moler&stick=H4sIAAAAAAAAAOPgE-LQz9U3MDWOr1DiBLGMCi3LDbQMMsqt9JPzc3JSk0sy8_P0C4ry04sSc3Mz89LjcxLz0ksT01OLrVJSizPT81JTFJIqF7FyO-eklqUq-ObnpBbtYGUEAEL7M5xaAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoATAnegQIDxAD)
+
+**[Operating system](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=matlab+operating+system&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQ6BMoADAoegQIEBAC):** [Windows](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=Windows&stick=H4sIAAAAAAAAAONgVuLQz9U3MCmKt1jEyh6emZeSX14MAFTjqsQWAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoATAoegQIEBAD), [macOS](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=macOS&stick=H4sIAAAAAAAAAONgVuLQz9U3MDWtLFrEypqbmOwfDADb5b_yFAAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoAjAoegQIEBAE), and [Linux](https://www.google.com/search?newwindow=1&sxsrf=ALeKk02bjDbYladn0CULYjwmhPld0fBl7Q:1584009917347&q=Linux&stick=H4sIAAAAAAAAAONgVuLUz9U3SCuoqipYxMrqk5lXWgEATgerNhUAAAA&sa=X&ved=2ahUKEwi3s8bj4JToAhVtzjgGHRebBxQQmxMoAzAoegQIEBAF)
