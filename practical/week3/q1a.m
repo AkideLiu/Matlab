@@ -50,15 +50,20 @@ function resultsLimiter(initializedVector, resultVector)
 
     % Use the input given range to filter the eligible numbers in vector A and their result which is the number in vector B, assign to the variable outputVector
 
-    outputVector = resultVector(initializedVector  >= limitVector(1) & initializedVector  <= limitVector(2));
+    initializedVectorOut = initializedVector(initializedVector  >= limitVector(1) & initializedVector  <= limitVector(2));
+
+    resultVectorOut = resultVector(initializedVector  >= limitVector(1) & initializedVector  <= limitVector(2));
 
     % display a reminder:
     fprintf('The cubes of the integer in the [ %.0f - %.0f ] ranges are:\n', limitVector(1) , limitVector(2));
 
     % Exclude decimals and output results
-    for i = (1:length(outputVector))
-        num = outputVector(i);
-        a = mod(num, 1);
+
+    for i = (1:length(initializedVectorOut))
+        initNum = initializedVectorOut(i);
+        resultNum = resultVectorOut(i);
+
+        a = mod(initNum, 1);
         div = 1;
         digitNum = 0;
         while abs(a-0) > 1e-12
@@ -69,7 +74,7 @@ function resultsLimiter(initializedVector, resultVector)
 
         % digitNum == 0 means that the number has been checked is integer 
         if digitNum == 0
-            disp(num2str(num));
+            disp(num2str(resultNum));
         end
     end
 end
