@@ -1,3 +1,7 @@
+clc;
+clear;
+close all;
+
 % initialize A and B
 A = [1:10];
 B = [11:20];
