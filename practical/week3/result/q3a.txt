@@ -1,0 +1,9 @@
+input.   output.
+3       no output
+4       'Divisible by four'
+0       'Divisible by four'
+
+
+16      'Divisible by four'
+12      'Divisible by four'
+13      no output
