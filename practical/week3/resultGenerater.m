@@ -25,8 +25,10 @@ function resultGenerater(initializedVector, resultVector)
     % display a reminder:
     fprintf('The 2 raised to the power of the integer in the [ %.0f - %.0f ] ranges are:\n', limitVector(1) , limitVector(2));
 
-    % Exclude decimals and output results
+    
 
+    fprintf('[');
+    % Exclude decimals and output results
     for i = (1:length(initializedVectorOut))
         initNum = initializedVectorOut(i);
         resultNum = resultVectorOut(i);
@@ -42,8 +44,9 @@ function resultGenerater(initializedVector, resultVector)
 
         % digitNum == 0 means that the number has been checked is integer 
         if digitNum == 0
-            disp(num2str(resultNum));
+            fprintf(' %.0f ', resultNum)
         end
     end
+    fprintf(']\n');
 end
 

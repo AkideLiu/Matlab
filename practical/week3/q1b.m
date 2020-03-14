@@ -3,7 +3,7 @@ clear;
 close all;
 
 % this program will create a new vector C that contains the 2 raised to the power of the numbers in A.
-% Notice : configure line 24 and 29 can affect outputs,
+% Notice : configure line 24 and 35 can affect outputs,
 %          configure line 13 can change range of VECTOR A (initial VECTOR);
 
 % define Vector A
