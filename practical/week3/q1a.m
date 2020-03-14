@@ -26,4 +26,4 @@ end
 % call following function to generate result. 
 % if not required , disable following function !
 
-resultGenerater(A,B);
+q1ResultGenerater(A,B);

@@ -2,7 +2,7 @@
 
 % user is required to enter 2 number [start,end] to limit the range of VECTOR A
 
-function resultGenerater(initializedVector, resultVector)
+function q1ResultGenerater(initializedVector, resultVector)
     limitVector = zeros(2);
     limitWord = ["START","END"];
     

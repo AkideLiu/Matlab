@@ -32,7 +32,7 @@ end
 % call following function to generate result. 
 % if not required , disable following function !
 
-% resultGenerater(A,C);
+% q1ResultGenerater(A,C);
 
 close all;
 
