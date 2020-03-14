@@ -20,14 +20,14 @@ for i = [1:length(A)]
     B(i) = power(A(i), 3);
 end
 
-% enable following to display context of vector B :
-% disp(num2str(B));
-
 C = zeros(size(A));
 
 for i = 1:length(A)
     C(i) = pow2(A(i));
 end
+
+% enable following to display context of vector C :
+% disp(num2str(C));
 
 % call following function to generate result. 
 % if not required , disable following function !
