@@ -2,6 +2,7 @@ clc;
 clear;
 close all;
 
+% this program works for check is this a year which can be divided by 4, if do so display that year .
 % define years
 years=[2015:2041];
 % years=[2015:2019];

@@ -1,9 +1,16 @@
-% following function will return the integer of VECTOR B (resultVector) in range of VECTOR A (initializedVector)
 
-% user is required to enter 2 number [start,end] to limit the range of VECTOR A
+% this script will user's input
+% first input is the start index of the initializedVector
+% second input is the end index of the initializedVector
+% input must in format of integer
+% finally there will display formated results
+% displayed results will be affected by initializedVector, resultVector
 
 function q1ResultGenerater(initializedVector, resultVector)
-    limitVector = zeros(2);
+    % initialize the limitVector,
+    % this vector will sotre user's input 
+    % limitWord is defined the strings which use for remind user's input .
+    limitVector = zeros(1,2);
     limitWord = ["START","END"];
     
     % request input
@@ -29,13 +36,17 @@ function q1ResultGenerater(initializedVector, resultVector)
 
     fprintf('[');
     % Exclude decimals and output results
+    % the for loop following works for remove the dcimal elements on the display stage 
     for i = (1:length(initializedVectorOut))
         initNum = initializedVectorOut(i);
         resultNum = resultVectorOut(i);
 
+        % get remainder (in division) for elements.
         a = mod(initNum, 1);
+        % define divisor .
         div = 1;
         digitNum = 0;
+        % following while will check is this number can be exact division by 1 or not, if do so the element is accepted for display .
         while abs(a-0) > 1e-12
             a = mod(a, div);
             digitNum = digitNum + 1;
@@ -43,6 +54,7 @@ function q1ResultGenerater(initializedVector, resultVector)
         end
 
         % digitNum == 0 means that the number has been checked is integer 
+        % if this element is an integer then display it .
         if digitNum == 0
             fprintf(' %.0f ', resultNum)
         end
