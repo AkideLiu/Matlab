@@ -43,10 +43,12 @@ end
 
 
 % display result 
-disp(B);
+% disp(B);
 
 % plot vetor B;
 close all;
 plot(B);
+
+resultGenerater(A,B);
 
 

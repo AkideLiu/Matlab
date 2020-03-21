@@ -34,4 +34,6 @@ for i = [1:lenA]
 end
 
 % display results
-disp(B);
+% disp(B);
+
+resultGenerater(A,B);

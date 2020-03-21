@@ -40,4 +40,6 @@ for i = 1:lenB
 end
 
 % display output.
-disp(B);
+% disp(B);
+
+resultGenerater(A,B);

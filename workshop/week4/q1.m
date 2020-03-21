@@ -27,5 +27,8 @@ for i = 1:length(A)
 end
 
 %display result  
-disp(B);
+% disp(B);
+
+resultGenerater(A,B);
+
 
