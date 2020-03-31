@@ -1,0 +1,24 @@
+inputs output
+5 5 5  <no output>
+2 1 2  “it’s isosceles”
+3 2 1  <no output>
+
+case 1:
+Enter 1 side : 2 
+Enter 2 side : 2
+Enter 3 side : 1
+it’s isosceles
+
+case 2
+
+Enter 1 side : 7
+Enter 2 side : 8
+Enter 3 side : 9
+>> 
+
+case 3
+
+Enter 1 side : 5
+Enter 2 side : 6
+Enter 3 side : 5
+it’s isosceles

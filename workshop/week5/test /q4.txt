@@ -1,0 +1,8 @@
+inputs output
+5 5 5  “it’s equilateral”
+2 1 2  <no output>
+
+
+6 6 6  “it’s isosceles”
+1 2 3   <no output>
+3 2 1   <no output>

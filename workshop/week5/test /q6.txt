@@ -1,0 +1,26 @@
+inputs output
+5 5 5  <no output>
+2 1 2  <no output>
+3 2 1  <no output>
+3 4 5  “it’s a scalene”
+
+
+case 1:
+
+Enter 1 side : 6
+Enter 2 side : 8
+Enter 3 side : 10
+it’s a scalene
+
+case 2:
+
+Enter 1 side : 5
+Enter 2 side : 6 
+Enter 3 side : 7
+
+case 3:
+
+Enter 1 side : 5
+Enter 2 side : 4
+Enter 3 side : 3
+it’s a scalene
