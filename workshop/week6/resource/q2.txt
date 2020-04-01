@@ -1,0 +1,14 @@
+enter the word for search : high
+found words: high at position : 142 
+
+
+enter the word for search : low
+found words: low at position : 362 
+
+
+enter the word for search : middle
+found words: middle at position : 992 
+
+
+enter the word for search : median
+>> 

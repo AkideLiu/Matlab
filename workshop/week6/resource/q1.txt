@@ -1,0 +1,439 @@
+%                                                                               
+ akide@Liyangs-MacBook-Pro  ~/MatLab   master  matlab -nosplash -nodesktop -sd /Users/akide/MatLab -r "run(
+  Columns 1 through 13
+
+    "the"    "be"    "and"    "of"    "a"    "in"    "to"    "have"    "to"    "it"    "I"    "that"    "for"
+
+  Columns 14 through 25
+
+    "you"    "he"    "with"    "on"    "do"    "say"    "this"    "they"    "at"    "but"    "we"    "his"
+
+  Columns 26 through 36
+
+    "from"    "that"    "not"    "n’t"    "n’t"    "by"    "she"    "or"    "as"    "what"    "go"
+
+  Columns 37 through 47
+
+    "their"    "can"    "who"    "get"    "if"    "would"    "her"    "all"    "my"    "make"    "about"
+
+  Columns 48 through 58
+
+    "know"    "will"    "as"    "up"    "one"    "time"    "there"    "year"    "so"    "think"    "when"
+
+  Columns 59 through 69
+
+    "which"    "them"    "some"    "me"    "people"    "take"    "out"    "into"    "just"    "see"    "him"
+
+  Columns 70 through 80
+
+    "your"    "come"    "could"    "now"    "than"    "like"    "other"    "how"    "then"    "its"    "our"
+
+  Columns 81 through 90
+
+    "two"    "more"    "these"    "want"    "way"    "look"    "first"    "also"    "new"    "because"
+
+  Columns 91 through 101
+
+    "day"    "more"    "use"    "no"    "man"    "find"    "here"    "thing"    "give"    "many"    "well"
+
+  Columns 102 through 112
+
+    "only"    "those"    "tell"    "one"    "very"    "her"    "even"    "back"    "any"    "good"    "woman"
+
+  Columns 113 through 122
+
+    "through"    "us"    "life"    "child"    "there"    "work"    "down"    "may"    "after"    "should"
+
+  Columns 123 through 133
+
+    "call"    "world"    "over"    "school"    "still"    "try"    "in"    "as"    "last"    "ask"    "need"
+
+  Columns 134 through 143
+
+    "too"    "feel"    "three"    "when"    "state"    "never"    "become"    "between"    "high"    "really"
+
+  Columns 144 through 153
+
+    "something"    "most"    "another"    "much"    "family"    "own"    "out"    "leave"    "put"    "old"
+
+  Columns 154 through 163
+
+    "while"    "mean"    "on"    "keep"    "student"    "why"    "let"    "great"    "same"    "big"
+
+  Columns 164 through 173
+
+    "group"    "begin"    "seem"    "country"    "help"    "talk"    "where"    "turn"    "problem"    "every"
+
+  Columns 174 through 182
+
+    "start"    "hand"    "might"    "American"    "show"    "part"    "about"    "against"    "place"
+
+  Columns 183 through 192
+
+    "over"    "such"    "again"    "few"    "case"    "most"    "week"    "company"    "where"    "system"
+
+  Columns 193 through 201
+
+    "each"    "right"    "program"    "hear"    "so"    "question"    "during"    "work"    "play"
+
+  Columns 202 through 211
+
+    "government"    "run"    "small"    "number"    "off"    "always"    "move"    "like"    "night"    "live"
+
+  Columns 212 through 220
+
+    "Mr"    "point"    "believe"    "hold"    "today"    "bring"    "happen"    "next"    "without"
+
+  Columns 221 through 230
+
+    "before"    "large"    "all"    "million"    "must"    "home"    "under"    "water"    "room"    "write"
+
+  Columns 231 through 239
+
+    "mother"    "area"    "national"    "money"    "story"    "young"    "fact"    "month"    "different"
+
+  Columns 240 through 249
+
+    "lot"    "right"    "study"    "book"    "eye"    "job"    "word"    "though"    "business"    "issue"
+
+  Columns 250 through 259
+
+    "side"    "kind"    "four"    "head"    "far"    "black"    "long"    "both"    "little"    "house"
+
+  Columns 260 through 268
+
+    "yes"    "after"    "since"    "long"    "provide"    "service"    "around"    "friend"    "important"
+
+  Columns 269 through 278
+
+    "father"    "sit"    "away"    "until"    "power"    "hour"    "game"    "often"    "yet"    "line"
+
+  Columns 279 through 288
+
+    "political"    "end"    "among"    "ever"    "stand"    "bad"    "lose"    "however"    "member"    "pay"
+
+  Columns 289 through 297
+
+    "law"    "meet"    "car"    "city"    "almost"    "include"    "continue"    "set"    "later"
+
+  Columns 298 through 306
+
+    "community"    "much"    "name"    "five"    "once"    "white"    "least"    "president"    "learn"
+
+  Columns 307 through 315
+
+    "real"    "change"    "team"    "minute"    "best"    "several"    "idea"    "kid"    "body"
+
+  Columns 316 through 323
+
+    "information"    "nothing"    "ago"    "right"    "lead"    "social"    "understand"    "whether"
+
+  Columns 324 through 332
+
+    "back"    "watch"    "together"    "follow"    "around"    "parent"    "only"    "stop"    "face"
+
+  Columns 333 through 341
+
+    "anything"    "create"    "public"    "already"    "speak"    "others"    "read"    "level"    "allow"
+
+  Columns 342 through 351
+
+    "add"    "office"    "spend"    "door"    "health"    "person"    "art"    "sure"    "such"    "war"
+
+  Columns 352 through 360
+
+    "history"    "party"    "within"    "grow"    "result"    "open"    "change"    "morning"    "walk"
+
+  Columns 361 through 370
+
+    "reason"    "low"    "win"    "research"    "girl"    "guy"    "early"    "food"    "before"    "moment"
+
+  Columns 371 through 379
+
+    "himself"    "air"    "teacher"    "force"    "offer"    "enough"    "both"    "education"    "across"
+
+  Columns 380 through 389
+
+    "although"    "remember"    "foot"    "second"    "boy"    "maybe"    "toward"    "able"    "age"    "off"
+
+  Columns 390 through 397
+
+    "policy"    "everything"    "love"    "process"    "music"    "including"    "consider"    "appear"
+
+  Columns 398 through 406
+
+    "actually"    "buy"    "probably"    "human"    "wait"    "serve"    "market"    "die"    "send"
+
+  Columns 407 through 416
+
+    "expect"    "home"    "sense"    "build"    "stay"    "fall"    "oh"    "nation"    "plan"    "cut"
+
+  Columns 417 through 424
+
+    "college"    "interest"    "death"    "course"    "someone"    "experience"    "behind"    "reach"
+
+  Columns 425 through 434
+
+    "local"    "kill"    "six"    "remain"    "effect"    "use"    "yeah"    "suggest"    "class"    "control"
+
+  Columns 435 through 444
+
+    "raise"    "care"    "perhaps"    "little"    "late"    "hard"    "field"    "else"    "pass"    "former"
+
+  Columns 445 through 452
+
+    "sell"    "major"    "sometimes"    "require"    "along"    "development"    "themselves"    "report"
+
+  Columns 453 through 461
+
+    "role"    "better"    "economic"    "effort"    "up"    "decide"    "rate"    "strong"    "possible"
+
+  Columns 462 through 471
+
+    "heart"    "drug"    "show"    "leader"    "light"    "voice"    "wife"    "whole"    "police"    "mind"
+
+  Columns 472 through 480
+
+    "finally"    "pull"    "return"    "free"    "military"    "price"    "report"    "less"    "according"
+
+  Columns 481 through 489
+
+    "decision"    "explain"    "son"    "hope"    "even"    "develop"    "view"    "relationship"    "carry"
+
+  Columns 490 through 498
+
+    "town"    "road"    "drive"    "arm"    "TRUE"    "federal"    "break"    "better"    "difference"
+
+  Columns 499 through 506
+
+    "thank"    "receive"    "value"    "international"    "building"    "action"    "full"    "model"
+
+  Columns 507 through 515
+
+    "join"    "season"    "society"    "because"    "tax"    "director"    "early"    "position"    "player"
+
+  Columns 516 through 524
+
+    "agree"    "especially"    "record"    "pick"    "wear"    "paper"    "special"    "space"    "ground"
+
+  Columns 525 through 533
+
+    "form"    "support"    "event"    "official"    "whose"    "matter"    "everyone"    "center"    "couple"
+
+  Columns 534 through 543
+
+    "site"    "end"    "project"    "hit"    "base"    "activity"    "star"    "table"    "need"    "court"
+
+  Columns 544 through 552
+
+    "produce"    "eat"    "American"    "teach"    "oil"    "half"    "situation"    "easy"    "cost"
+
+  Columns 553 through 561
+
+    "industry"    "figure"    "face"    "street"    "image"    "itself"    "phone"    "either"    "data"
+
+  Columns 562 through 570
+
+    "cover"    "quite"    "picture"    "clear"    "practice"    "piece"    "land"    "recent"    "describe"
+
+  Columns 571 through 579
+
+    "product"    "doctor"    "wall"    "patient"    "worker"    "news"    "test"    "movie"    "certain"
+
+  Columns 580 through 588
+
+    "north"    "love"    "personal"    "open"    "support"    "simply"    "third"    "technology"    "catch"
+
+  Columns 589 through 597
+
+    "step"    "baby"    "computer"    "type"    "attention"    "draw"    "film"    "Republican"    "tree"
+
+  Columns 598 through 606
+
+    "source"    "red"    "nearly"    "organization"    "choose"    "cause"    "hair"    "look"    "point"
+
+  Columns 607 through 614
+
+    "century"    "evidence"    "window"    "difficult"    "listen"    "soon"    "culture"    "billion"
+
+  Columns 615 through 623
+
+    "chance"    "brother"    "energy"    "period"    "course"    "summer"    "less"    "realize"    "hundred"
+
+  Columns 624 through 631
+
+    "available"    "plant"    "likely"    "opportunity"    "term"    "short"    "letter"    "condition"
+
+  Columns 632 through 639
+
+    "choice"    "place"    "single"    "rule"    "daughter"    "administration"    "south"    "husband"
+
+  Columns 640 through 647
+
+    "Congress"    "floor"    "campaign"    "material"    "population"    "well"    "call"    "economy"
+
+  Columns 648 through 656
+
+    "medical"    "hospital"    "church"    "close"    "thousand"    "risk"    "current"    "fire"    "future"
+
+  Columns 657 through 664
+
+    "wrong"    "involve"    "defense"    "anyone"    "increase"    "security"    "bank"    "myself"
+
+  Columns 665 through 673
+
+    "certainly"    "west"    "sport"    "board"    "seek"    "per"    "subject"    "officer"    "private"
+
+  Columns 674 through 682
+
+    "rest"    "behavior"    "deal"    "performance"    "fight"    "throw"    "top"    "quickly"    "past"
+
+  Columns 683 through 691
+
+    "goal"    "second"    "bed"    "order"    "author"    "fill"    "represent"    "focus"    "foreign"
+
+  Columns 692 through 701
+
+    "drop"    "plan"    "blood"    "upon"    "agency"    "push"    "nature"    "color"    "no"    "recently"
+
+  Columns 702 through 710
+
+    "store"    "reduce"    "sound"    "note"    "fine"    "before"    "near"    "movement"    "page"
+
+  Columns 711 through 719
+
+    "enter"    "share"    "than"    "common"    "poor"    "other"    "natural"    "race"    "concern"
+
+  Columns 720 through 727
+
+    "series"    "significant"    "similar"    "hot"    "language"    "each"    "usually"    "response"
+
+  Columns 728 through 736
+
+    "dead"    "rise"    "animal"    "factor"    "decade"    "article"    "shoot"    "east"    "save"
+
+  Columns 737 through 745
+
+    "seven"    "artist"    "away"    "scene"    "stock"    "career"    "despite"    "central"    "eight"
+
+  Columns 746 through 754
+
+    "thus"    "treatment"    "beyond"    "happy"    "exactly"    "protect"    "approach"    "lie"    "size"
+
+  Columns 755 through 763
+
+    "dog"    "fund"    "serious"    "occur"    "media"    "ready"    "sign"    "thought"    "list"
+
+  Columns 764 through 771
+
+    "individual"    "simple"    "quality"    "pressure"    "accept"    "answer"    "hard"    "resource"
+
+  Columns 772 through 779
+
+    "identify"    "left"    "meeting"    "determine"    "prepare"    "disease"    "whatever"    "success"
+
+  Columns 780 through 787
+
+    "argue"    "cup"    "particularly"    "amount"    "ability"    "staff"    "recognize"    "indicate"
+
+  Columns 788 through 795
+
+    "character"    "growth"    "loss"    "degree"    "wonder"    "attack"    "herself"    "region"
+
+  Columns 796 through 804
+
+    "television"    "box"    "TV"    "training"    "pretty"    "trade"    "deal"    "election"    "everybody"
+
+  Columns 805 through 813
+
+    "physical"    "lay"    "general"    "feeling"    "standard"    "bill"    "message"    "fail"    "outside"
+
+  Columns 814 through 822
+
+    "arrive"    "analysis"    "benefit"    "name"    "sex"    "forward"    "lawyer"    "present"    "section"
+
+  Columns 823 through 830
+
+    "environmental"    "glass"    "answer"    "skill"    "sister"    "PM"    "professor"    "operation"
+
+  Columns 831 through 839
+
+    "financial"    "crime"    "stage"    "ok"    "compare"    "authority"    "miss"    "design"    "sort"
+
+  Columns 840 through 848
+
+    "one"    "act"    "ten"    "knowledge"    "gun"    "station"    "blue"    "state"    "strategy"
+
+  Columns 849 through 856
+
+    "little"    "clearly"    "discuss"    "indeed"    "force"    "truth"    "song"    "example"
+
+  Columns 857 through 864
+
+    "democratic"    "check"    "environment"    "leg"    "dark"    "public"    "various"    "rather"
+
+  Columns 865 through 873
+
+    "laugh"    "guess"    "executive"    "set"    "study"    "prove"    "hang"    "entire"    "rock"
+
+  Columns 874 through 882
+
+    "design"    "enough"    "forget"    "since"    "claim"    "note"    "remove"    "manager"    "help"
+
+  Columns 883 through 891
+
+    "close"    "sound"    "enjoy"    "network"    "legal"    "religious"    "cold"    "form"    "final"
+
+  Columns 892 through 900
+
+    "main"    "science"    "green"    "memory"    "card"    "above"    "seat"    "cell"    "establish"
+
+  Columns 901 through 909
+
+    "nice"    "trial"    "expert"    "that"    "spring"    "firm"    "Democrat"    "radio"    "visit"
+
+  Columns 910 through 918
+
+    "management"    "care"    "avoid"    "imagine"    "tonight"    "huge"    "ball"    "no"    "close"
+
+  Columns 919 through 926
+
+    "finish"    "yourself"    "talk"    "theory"    "impact"    "respond"    "statement"    "maintain"
+
+  Columns 927 through 934
+
+    "charge"    "popular"    "traditional"    "onto"    "reveal"    "direction"    "weapon"    "employee"
+
+  Columns 935 through 943
+
+    "cultural"    "contain"    "peace"    "head"    "control"    "base"    "pain"    "apply"    "play"
+
+  Columns 944 through 952
+
+    "measure"    "wide"    "shake"    "fly"    "interview"    "manage"    "chair"    "fish"    "particular"
+
+  Columns 953 through 960
+
+    "camera"    "structure"    "politics"    "perform"    "bit"    "weight"    "suddenly"    "discover"
+
+  Columns 961 through 968
+
+    "candidate"    "top"    "production"    "treat"    "trip"    "evening"    "affect"    "inside"
+
+  Columns 969 through 977
+
+    "conference"    "unit"    "best"    "style"    "adult"    "worry"    "range"    "mention"    "rather"
+
+  Columns 978 through 986
+
+    "far"    "deep"    "past"    "edge"    "individual"    "specific"    "writer"    "trouble"    "necessary"
+
+  Columns 987 through 994
+
+    "throughout"    "challenge"    "fear"    "shoulder"    "institution"    "middle"    "sea"    "dream"
+
+  Columns 995 through 1000
+
+    "bar"    "beautiful"    "property"    "instead"    "improve"    "stuff"
+
+>> 
