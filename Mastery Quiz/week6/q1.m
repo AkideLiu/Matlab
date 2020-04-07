@@ -17,9 +17,9 @@ if ~(clearDrawing() && saveProgramState())
 end
 
 
-function output = clearDrawing()
-    output = true;
-end
+% function output = clearDrawing()
+%     output = false;
+% end
 
 function output = saveProgramState()
     output = false;
