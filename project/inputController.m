@@ -4,7 +4,7 @@
 % https://github.com/AkideLiu/Matlab/blob/master/LICENSE
 
 % Description : This script ...
-function [x,y,inputValidation] = readInput()
+function [x,y,inputValidation] = inputController()
 
             % wrong x and y
             x = 0;

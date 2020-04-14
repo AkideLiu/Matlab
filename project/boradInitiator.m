@@ -5,14 +5,14 @@
 
 % Description : This script will initialize borad 
 
-function finalBorad = initBorad(rows,cols)
+function mineBoardArray = boradInitiator(rows,cols)
 
     debug_enable = false;
 
-    finalBorad = createBorad(rows,cols,debug_enable);
+    mineBoardArray = createBorad(rows,cols,debug_enable);
 end
 
-function finalBorad = createBorad(rows,cols,debug_enable)
+function mineBoardArray = createBorad(rows,cols,debug_enable)
     borad = zeros(rows,cols);
 
     count = 10;
@@ -29,14 +29,14 @@ function finalBorad = createBorad(rows,cols,debug_enable)
         debugPrint(borad);
     end
 
-    finalBorad = borad;
+    mineBoardArray = borad;
 
 end
 
 
-function [output] = debugPrint(finalBorad)
+function debugPrint(mineBoardArray)
 
-    [rows,cols] = size(finalBorad);
+    [rows,cols] = size(mineBoardArray);
 
     for i = 1:rows
         fprintf(' %d ', i);
@@ -46,7 +46,7 @@ function [output] = debugPrint(finalBorad)
 
     for row = 1:rows
         for col = 1:cols
-            fprintf(' %d ', finalBorad(row,col));
+            fprintf(' %d ', mineBoardArray(row,col));
             if col == cols
                 fprintf(' | %d ', row);
             end

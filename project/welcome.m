@@ -14,13 +14,13 @@ end
 function programInfo()
     fprintf("|                                  |\n");
     fprintf("|            Minesweeper           |\n");
-    fprintf("|          Version : 1.0.0         |\n");
+    fprintf("|          Version : 1.0.1         |\n");
     fprintf("|         Aother : Akide Liu       |\n");
     fprintf("|                                  |\n");
-    fprintf("|        Game has been loaded      |\n");
-    fprintf("|    Press any key to continue!    |\n");
+    fprintf("|       Game loaded successfully   |\n");
+    fprintf("|      Press any key to continue!  |\n");
 
-    % input('Awaiting your response ...','s');
+    input('Awaiting your response ...','s');
 
     clc;
 end

@@ -5,11 +5,11 @@
 
 % Description : This script ...
 
-function output = printUserBoard(finalBorad)
+function boradPrinter(mineBoardArray)
     clc;
 
-    global displayBoomArray boomMap;
-    [rows,cols] = size(finalBorad);
+    global mineDisplayArray;
+    [rows,cols] = size(mineBoardArray);
 
 
     for i = 1:rows
@@ -24,13 +24,13 @@ function output = printUserBoard(finalBorad)
         for col = 1:cols
             if mod(row, 2) == 1
 
-                % display how many booms around selected location.
-                element = displayBoomArray(row_count,col);
-                element = boomMap(row_count,col);
+                % display how many bombs around selected location.
+                % element = aroundMineArray(row_count,col);
+                element = mineDisplayArray(row_count,col);
                 if element > 0
                     fprintf('| %d ',element);
                 elseif element == -1
-                    fprintf('|   ',element);
+                    fprintf('|   ');
                 elseif element == -2
                     fprintf('| M ');
                 else
@@ -39,7 +39,7 @@ function output = printUserBoard(finalBorad)
 
 
                 % debug numbers output 
-                % fprintf('%d', finalBorad(row_count,col));
+                % fprintf('%d', mineBoardArray(row_count,col));
 
                 % print column number 
                 if col == cols

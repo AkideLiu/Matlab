@@ -6,30 +6,30 @@ close all;
 % Date : 12 / 04 / 2020 
 % License and copyright notice: GNU General Public License v3.0 
 % https://github.com/AkideLiu/Matlab/blob/master/LICENSE
-% Version : 1.0
+% Version : 1.0.1
 
 % Description : This script Minesweeper 
 
 rows = 9;
 cols = 9;
 
-global displayBoomArray finalBorad boomMap;
-displayBoomArray = zeros(rows,cols);
-boomMap = zeros(size(displayBoomArray));
+global aroundMineArray mineBoardArray mineDisplayArray;
+aroundMineArray = zeros(rows,cols);
+mineDisplayArray = zeros(size(aroundMineArray));
 
 inputValidation = false;
 
 
 welcome();
-finalBorad = initBorad(rows,cols);
+mineBoardArray = boradInitiator(rows,cols);
 
 
 while (inputValidation == false)
-    printUserBoard(finalBorad);
-    [x,y,inputValidation] = readInput();
+    boradPrinter(mineBoardArray);
+    [x,y,inputValidation] = inputController();
 end
 
-if finalBorad(x,y) == 1
+if mineBoardArray(x,y) == 1
     result = 1;
     gameController(x,y);
 else
@@ -37,15 +37,15 @@ else
 end
 
 while result == 0
-    findBoom(x,y);
-    printUserBoard(finalBorad);
-    [x,y,inputValidation] = readInput();
+    bombEventProgresser(x,y);
+    boradPrinter(mineBoardArray);
+    [x,y,inputValidation] = inputController();
     [result] = gameController(x,y);
 end
 
-% debug findBoom 
+% debug bombEventProgresser 
 % for i = 1:length(rows)
-%     finalBorad(rows(i),cols(i))
+%     mineBoardArray(rows(i),cols(i))
 % end
 
 

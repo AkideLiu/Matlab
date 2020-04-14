@@ -6,9 +6,9 @@
 % Description : This script gameController
 
 function [result] = gameController(x, y)
-    global displayBoomArray finalBorad boomMap;
+    global  mineBoardArray ;
 
-    selected_val = finalBorad(x, y);
+    selected_val = mineBoardArray(x, y);
 
     switch selected_val
         case 1
@@ -25,19 +25,19 @@ function [result] = gameController(x, y)
 end
 
 function endGame()
-    global displayBoomArray finalBorad boomMap;
+    global aroundMineArray mineBoardArray mineDisplayArray;
 
-    if length(find(boomMap ~= displayBoomArray)) == 0
+    if isempty(find(mineDisplayArray ~= aroundMineArray))
 
-        boomMap = finalBorad;
-        boomMap(boomMap == 1) = -2;
-        boomMap(boomMap == 0) = -1;
+        mineDisplayArray = mineBoardArray;
+        mineDisplayArray(mineDisplayArray == 1) = -2;
+        mineDisplayArray(mineDisplayArray == 0) = -1;
 
     else
-        % boomMap = displayBoomArray;
-        boomMap(finalBorad == 1) = -2;
+        % mineDisplayArray = aroundMineArray;
+        mineDisplayArray(mineBoardArray == 1) = -2;
 
     end
 
-    printUserBoard(finalBorad);
+    boradPrinter(mineBoardArray);
 end
