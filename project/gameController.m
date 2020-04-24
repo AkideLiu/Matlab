@@ -39,5 +39,5 @@ function endGame()
 
     end
 
-    boradPrinter(mineBoardArray);
+    boradPrinter();
 end

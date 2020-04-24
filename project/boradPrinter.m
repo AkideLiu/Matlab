@@ -5,10 +5,10 @@
 
 % Description : This script ...
 
-function boradPrinter(mineBoardArray)
+function boradPrinter()
     clc;
 
-    global mineDisplayArray;
+    global mineBoardArray mineDisplayArray;
     [rows,cols] = size(mineBoardArray);
 
 

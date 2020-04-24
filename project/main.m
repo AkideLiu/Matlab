@@ -25,7 +25,7 @@ mineBoardArray = boradInitiator(rows,cols);
 
 
 while (inputValidation == false)
-    boradPrinter(mineBoardArray);
+    boradPrinter();
     [x,y,inputValidation] = inputController();
 end
 
@@ -38,7 +38,7 @@ end
 
 while result == 0
     bombEventProgresser(x,y);
-    boradPrinter(mineBoardArray);
+    boradPrinter();
     [x,y,inputValidation] = inputController();
     [result] = gameController(x,y);
 end
