@@ -7,7 +7,12 @@
 
 function bombEventProgresser(x, y)
 
+    % import global vars
+
     global aroundMineArray mineDisplayArray;
+
+    % call generateAroundMineArray
+    % it creates aroundMineArray
 
     generateAroundMineArray();
 
@@ -16,9 +21,12 @@ function bombEventProgresser(x, y)
     % catch selected array from mineBoardArray
     selectedArray = mineBoardArrayProgress(x, y);
 
+    % bombLocation is the results of compare testArray and selectedArray
     bombLocation = find(testArray == selectedArray);
 
     if ~isempty(bombLocation)
+
+        % if bombLocation is NOT empty it means there are some bombs around user's selected location
 
         BombsAround(x, y);
 
@@ -26,14 +34,19 @@ function bombEventProgresser(x, y)
 
     elseif isempty(bombLocation)
 
+        % if bombLocation is empty it means there are NO any bombs around user's selected location
+
         noBombsAround(x, y);
 
         spread(x, y);
 
     end
+
 end
 
 function generateAroundMineArray()
+
+    % create AroundMineArray
 
     global aroundMineArray mineBoardArray;
 
@@ -64,11 +77,11 @@ function [selectedArray] = mineBoardArrayProgress(x, y)
 
     [cols, rows] = size(mineBoardArray);
 
+    % Expand broad in four directions (up, down, left, and right). If user choose to reach the border, avoid errors.
+
     plusBombArray = zeros(cols + 2, rows + 2);
 
     plusBombArray(2:end - 1, 2:end - 1) = mineBoardArray;
-
-    % selectedArray = zeros(3);
 
     % xIndex and yIndex works for plus Bomb array
     xIndex = x + 1;
@@ -126,12 +139,12 @@ function [finalRowIndexArray, finalColIndexArray, numsOfBombAround] = BombsAroun
 
         % finalColIndex = x + (rows(i) - 2);
         finalColIndex = y + (cols(i) - 2);
-        
+
         finalColIndexArray = [finalColIndexArray finalColIndex];
     end
 
     numsOfBombAround = length(rows);
-    
+
     aroundMineArray(x, y) = numsOfBombAround;
 end
 
