@@ -9,18 +9,6 @@ close all;
 
 % Description : This script ...
 
-A = zeros(3);
-B = [1 0 1;0 1 0 ; 1 1 0];
+main();
 
-C = (find(A~=B))
-
-[row,col] = ind2sub(size(A),C)
-
-length(C)
-B(7)
-
-
-D = [[1 ; 2] [3 ; 4]]
-
-D = [D [3 ; 4]]
 

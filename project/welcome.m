@@ -14,8 +14,8 @@ end
 function programInfo()
     fprintf("|                                  |\n");
     fprintf("|            Minesweeper           |\n");
-    fprintf("|          Version : 1.0.1         |\n");
-    fprintf("|         Aother : Akide Liu       |\n");
+    fprintf("|          Version : 1.0.2         |\n");
+    fprintf("|         Aothor : Akide Liu       |\n");
     fprintf("|                                  |\n");
     fprintf("|       Game loaded successfully   |\n");
     fprintf("|      Press any key to continue!  |\n");

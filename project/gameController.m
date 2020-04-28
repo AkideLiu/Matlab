@@ -16,11 +16,14 @@ function [result] = gameController(x, y)
             clc;
             endGame();
             fprintf('The location you selected row (%d) col(%d) is a Mine\n', x, y);
-            disp('game Over ...');
-            return;
+            disp('game Over ..., you lose');
         case 0
-            result = 0
+            result = 0;
     end
+
+    result = winGame();
+
+    
 
 end
 
@@ -34,10 +37,25 @@ function endGame()
         mineDisplayArray(mineDisplayArray == 0) = -1;
 
     else
-        % mineDisplayArray = aroundMineArray;
         mineDisplayArray(mineBoardArray == 1) = -2;
+        mineDisplayArray(mineDisplayArray == 0) = -1;
 
     end
 
     boradPrinter();
+end
+
+function result = winGame()
+    global mineBoardArray mineDisplayArray;
+
+    if length(find(mineDisplayArray == 0)) == 11
+        mineDisplayArray(mineBoardArray == 1) = -2;
+        mineDisplayArray(mineDisplayArray == 0) = -1;
+        clc;
+        boradPrinter();
+        disp('game Over ..., you win');
+        result = 2;
+    else
+        result = 0;
+    end
 end
